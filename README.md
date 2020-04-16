@@ -8,6 +8,18 @@ npm install npm-assembly --save
 
 # serve
 main.js   import npmAssembly from 'npm-assembly'
+
+# echarts 组件
+<echart
+    :id="Id"
+    :eStyle="style" // 样式
+    :titleText="title" // 标题
+    :legend="barName" // legend
+    :seriesData="data" // 数据源
+    :xA="barX" // X轴
+    :yA="barY" // Y轴
+    />
+
 ```
 
 ``` bash
